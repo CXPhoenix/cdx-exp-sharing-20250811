@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.mdc": "mdc",
+        "*.md": "markdown"
+    }
+}

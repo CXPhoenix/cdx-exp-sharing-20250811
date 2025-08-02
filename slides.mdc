@@ -1,0 +1,341 @@
+---
+theme: '@cxphoenix/slidev-theme-fhsh-aisp'
+transition: slide-left
+skipPageNumberLayouts:
+  - cover
+---
+
+# CDX 使用分享
+
+## CXPh03n1x @ FHSH
+
+&copy; 2025/08/11 FHSH AiSP {.absolute .-bottom-[15%] .w-full .text-center .text-[1rem] style="display: block;"}
+
+---
+
+# 自我介紹
+
+## 陳晉 CXPh03n1x {.pl-5}
+
+::ul {.pl-20 .space-y-2}
+- 復興高中資訊教師
+- 復興高中資訊組副組長
+- ISIP.hs 北區教學資源中心副主任
+- ISIP.hs 中心講師
+- 國防管理學院資管系 CTF 戰隊指導
+::
+
+::v-click
+![自介照](/self-intro-photo.png) {.absolute .w-[35%] .top-0 .right-[2%]}
+::
+
+---
+
+# OUTLINE
+
+<CustomToc :tocLayoutIncludes='["section"]' />
+
+---
+layout: section
+---
+
+# 為什麼開始使用 CDX？
+
+## 以及為什麼持續使用
+
+---
+layout: image
+---
+
+# 一切的開始
+
+![isip.hs](/isip_slogon.svg){.scale-80}
+
+---
+
+# 一切的開始
+
+## 當時的使用目的
+
+::::v-clicks{depth=2}
+::ul{.pl-12 .space-y-2 .text-3xl}
+- 想要有個平台讓學生可以好好練習 Linux 環境
+- 校內要開個 Service 要花太多力氣
+  - 資安等級
+  - 機器放在哪
+  - 什麼時候可以維護
+  - 人生的方向 \_(┐「ε:)\_
+::
+::::
+
+---
+layout: image
+---
+
+# 一切的開始
+
+![進退兩難的我們](/delema-1.png) {.scale-95}
+
+---
+
+# 一切的開始
+
+::div{.w-full .h-full .flex .flex-col .justify-center .items-center .text-5xl .gap-y-4}
+總之，用了 CDX 就回不去了 (ゝ∀･)b  
+
+![習慣沈沒](/in-water-cant-get-back.png){.w-[60%] .mx-auto}
+::
+
+---
+
+# 開始持續使用
+
+## 現在不用擔心這些問題{.pl-2}
+
+::::v-clicks{depth=2}
+::ul{.grid .grid-cols-2 .gap-y-6 .mt-4}
+- 學生說家裡沒機器
+  - 叫他開 CDX{.marker:content-['💁'] .pl-4}
+- 學生說系統不一樣
+  - CDX 範本走起{.marker:content-['💁‍♀️'] .pl-4}
+- 學生說系統爆炸了
+  - 直接重開虛擬機{.marker:content-['💁‍♂️'] .pl-4}
+- 學生說無法使用機器
+  - 叫他打 CDX 的客服 (๑ơ ₃ ơ)♥{.marker:content-['🤳'] .pl-4}
+::
+::::
+
+---
+layout: image
+---
+
+# 開始持續使用
+
+![別人家的孩子死不掉](/dont-be-afraid-broken.png){.scale-95}
+
+---
+layout: section
+---
+
+# 教學の日常
+
+## 以及我多麼想打學生(?)
+
+---
+
+# 日常使用
+
+## 平常教學活動的使用{.pl-2}
+
+::::v-clicks
+::ul{.pl-12}
+- 教 Linux 使用
+- 訓練 APCS 上機考
+- 講解網路傳輸
+- 教授撰寫 Web App
+- CTF 訓練
+::
+::::
+
+---
+layout: image
+---
+
+# 日常使用
+
+![在CDX上的專案展示](/dev-project-in-cdx.jpeg)
+
+---
+layout: image
+---
+
+# 日常使用
+
+![CTF 的訓練](/ctf-training.jpeg)
+
+---
+
+# 戰時(?)使用
+
+## 要做校內培訓競賽、考試時很好用{.pl-2}
+
+::::v-clicks
+::ul{.pl-12}
+- 開 CTFd
+- 架 CTF 靶機
+- 做 CTF A&D 競賽環境
+- 讓學生打 Online CTF 時當攻擊機
+::
+::::
+
+---
+layout: image
+---
+
+# 戰時(?)使用
+
+![學生開虛擬機打競賽](/open-machine.jpeg)
+
+---
+layout: image
+---
+
+# 戰時(?)使用
+
+![台北高中職博覽會架靶機](/taipei-highschool-exhibition.jpeg)
+
+---
+layout: image
+---
+
+# 戰時(?)使用
+
+![黑客松的競賽容器](/hackathon.jpeg)
+
+---
+
+# 戰時(?)使用
+
+## 可是都要連進去，會不會很麻煩？{.text-center .pt-5}
+
+::v-click
+這時候就要用點小技巧 bypass (*´∀`)~♥ {.text-center}
+
+![Cloudflare 服務](/cloudflare.png){.mx-auto .scale-120}
+
+::::div{.absolute .bottom-3 .w-full}
+真的是佛心的服務 🪷 有免費的可以用喔～{.block .text-sm .text-center}
+::::
+::
+
+---
+layout: section
+---
+
+# 長期使用的心得
+
+## 以及我真的很想擁有的功能
+
+---
+
+# 使用心得
+
+::ul{.pl-16 .pt-6 .space-y-4 .text-4xl}
+- 快速(?)方便好用
+- 不用管資安通報
+  - 但是學生在校內打 payload 出去還是會觸發...{.marker:content-none}
+- 環境統一，沒有人可以說「老師我家沒有」
+- 老師還可以進去偷看學生使用 (╭￣3￣)╭♡
+::
+
+::v-click
+必須吐槽：近期更新後，才變快的...... {.block .w-full .absolute .bottom-8 .text-sm .text-center}
+
+而且終於修復持續在 waiting 的問題 (／‵Д′)／~ ╧╧ {.block .w-full .absolute .bottom-2 .text-sm .text-center}
+::
+
+---
+
+# 使用心得
+
+### 當然還是會衍伸一些問題...
+
+::ul{.pl-16 .space-y-4}
+- 學生能用 [網路不通]{.text-rose-600 .text-4xl} 解決 90% 的問題 (#`皿´)
+- 當誤刪某些靶機時，你會捶心肝 0(:3　)～ ('､3_ヽ)_ \
+  （尤其是專案沒有放到 Github 上的時候...）
+- 當學生說他誤刪靶機時的猶豫困境 _(┐ ◟;ﾟдﾟ)ノ \
+  到底是當了他還是給他機會呢...
+::
+
+---
+layout: image
+---
+
+# 使用心得
+
+![救不回的專案](/cant-save-my-project.png)
+
+---
+
+# 功能許願
+
+## 有這些功能可能可以救高中老師一命
+
+::::v-clicks{depth=2}
+::ul{.grid .grid-cols-2 .gap-y-2 .mt-3=2}
+- 使用時間統計
+  - 學生總說他有用有練習 {.marker:content-['😒'] .pl-4}
+  - 但是上課就是不會... {.marker:content-none .pl-4}
+- 有限的 Tunneling
+  - 總是掛 Cloudflare 好麻煩 (´_ゝ`) {.marker:content-['😮‍💨'] .pl-4}
+- 搜尋與批次功能強化
+  - 決定刪哪些機器時 {.marker:content-['😵‍💫'] .pl-4}
+  - 實在看不出來那是哪台... {.marker:content-none .pl-4}
+- Web SSH 支援 UTF-8 中文字體
+  - 每次看到無法辨識字元的框框就... ・゜・(PД`q｡)・゜・{.marker:content-['😱'] .pl-4}
+::
+::::
+
+---
+layout: image
+---
+
+# 功能許願
+
+![我想要有 UTF-8 繁中字體支援！！！](/need-utf8.png)
+
+我真的很需要沒有亂碼框框的 Web SSH...{.w-full .absolute .top-[35%] .text-stone-100 .text-center style="display: block;"}
+
+你看，我的英文都因為這樣打錯了 ┐(´д`)┌（不要瞎掰好嗎） {.w-full .absolute .top-[55%] .text-xl .text-stone-100 .text-center style="display: block;"}
+
+---
+layout: section
+---
+
+# 總結
+
+## 總得來點收尾
+
+---
+
+# 總結
+
+## 雖然是 Cyber Defense eXercise...
+
+::::v-clicks
+::ul{.pl-16}
+- 其實就是虛擬機，跑些簡單的服務還是方便的。
+- 但是服務放在上面，就要有被打的心理準備 (\*´▽`\*)
+  - 我都會讓學生上去掃看看，去打怪升級 (ﾉ>ω<)ﾉ {.marker:content-none}
+- 雖然 CVE 範本沒增加，但是自己來還是可以好自在 (❛◡❛✿)
+::
+::::
+
+::v-click
+其實以上都還不是最重要的... {.block .pt-6 .text-shadow-lg .text-3xl .text-center}
+::
+
+---
+layout: image
+---
+
+# 總結
+
+![多使用拜託...不要讓他被關掉](/more-usage.png)
+
+---
+layout: section
+---
+
+# Ｑ＆Ａ
+
+## 開放大家提問 (✪ω✪)
+
+---
+layout: cover
+---
+
+# 謝謝大家～
+
+## 有問題歡迎聯繫 [0826＠fhsh.tp.edu.tw]{.text-sky-600 .underline style="display: inline-block;"} {style="font-size: 2.4rem;"}

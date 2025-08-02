@@ -3,6 +3,7 @@ theme: '@cxphoenix/slidev-theme-fhsh-aisp'
 transition: slide-left
 skipPageNumberLayouts:
   - cover
+favicon: 'New AISP Logo Icon.svg'
 ---
 
 # CDX 使用分享
